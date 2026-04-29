@@ -20,18 +20,16 @@ const gameScreen = document.getElementById("gameScreen");
 const wordElement = document.getElementById("word");
 const inputElement = document.getElementById("input");
 const PressStart = document.getElementById("PressStart");
-const textElement = document.getElementById("text");
 const timeElement = document.getElementById("time");
 const scoreElement = document.getElementById("score");
 const comboElement = document.getElementById("combo");
 const highScoreElement = document.getElementById("highScore");
-const correctSound = document.getElementById("correctSound");
-const wrongSound = document.getElementById("wrongSound");
 const timeBarContainer = document.getElementById("timeBarContainer");
 const timeBar = document.getElementById("timeBar");
 
 function getRandomWord() {
-  return words[parseInt(Math.random() * words.length)];
+  // return words[parseInt(Math.random() * words.length)];
+  return words[Math.floor(Math.random() * words.length)];
 }
 
 function startGame() {
@@ -43,7 +41,6 @@ function startGame() {
   time = 60;
   inputElement.value = "";
   inputElement.disabled = false;
-  textElement.style.display = "none";
   wordElement.style.display = "block";
   inputElement.style.display = "block";
   timeBarContainer.style.display = "block";
@@ -123,7 +120,6 @@ function updateHighScore() {
 function endGame() {
   inputElement.disabled = true;
   warned = false;
-  textElement.style.display = "block";
   wordElement.style.display = "none";
   inputElement.style.display = "none";
   timeBarContainer.style.display = "none";
@@ -157,6 +153,9 @@ function highlightWord(typedWord) {
 }
 
 inputElement.addEventListener("input", () => {
+  TypingSound.currentTime = 0;
+  TypingSound.play();
+
   const typedWord = inputElement.value.toLowerCase();
   wrongLetters = 0;
 

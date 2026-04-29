@@ -8,26 +8,21 @@
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=JetBrains+Mono&display=swap"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Press+Start+2P&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Mono&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="typing_style.css" />
     <title>Typing Game</title>
   </head>
   <body>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
     <div id="startScreen">
       <div class="title-wrapper">
         <div class="subtitle">Game</div>
@@ -38,12 +33,6 @@
     <div id="gameScreen">
       <div class="card">
         <h1>Typing Game</h1>
-        <p
-          id="text"
-          style="color: rgba(36, 159, 241, 0.932); text-align: center"
-        >
-          Type as many words as you can until time runs out!
-        </p>
         <p>🏆 High Score : <span id="highScore">0</span></p>
         <div id="timeBarContainer">
           <div id="timeBar"></div>
@@ -74,7 +63,7 @@
       </div>
     </div>
     <script src="typing_sounds.js"></script>
-    <script src="words.js"></script>
+    <!-- <script src="words.json"></script> -->
     <script src="typing_script.js"></script>
   </body>
 </html>
