@@ -1,11 +1,6 @@
 # ⌨️ Web Typing Game
 
-<p align="left  ">
-  <!-- <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/GitHub%20Pages-121013?style=for-the-badge&logo=github&logoColor=white" /> -->
-
+<p align="left">
    <a href="#html"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /></a>
   <a href="#css"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /></a>
   <a href="#js"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /></a>
@@ -40,12 +35,12 @@ Web Typing Game เป็นเกมฝึกพิมพ์เร็วบน�
 
 ## ✨ Features (คุณสมบัติ)
 
-- ⌨️ Interactive typing gameplay     (ระบบการพิมพ์โต้ตอบกับตัวเกม)
-- 🎲 Random word generation     (สุ่มคำศัพท์จากคลังข้อมูล)
-- ⏱️ Countdown timer     (ระบบนับเวลาถอยหลัง)
-- 🏆 High score tracking      (มีการบันทึกคะแนนสูงสุด)
-- 🔊 Sound effects      (เอฟเฟกต์เสียงภายในเกม)
-- 📱 Responsive design      (รองรับการแสดงผลหน้าจอหลายขนาด)
+- ⌨️ Interactive typing gameplay | ระบบการพิมพ์โต้ตอบกับตัวเกม
+- 🎲 Random word generation | สุ่มคำศัพท์จากคลังข้อมูล
+- ⏱️ Countdown timer | ระบบนับเวลาถอยหลัง
+- 🏆 High score tracking | มีการบันทึกคะแนนสูงสุด
+- 🔊 Sound effects | เอฟเฟกต์เสียงภายในเกม
+- 📱 Responsive design | รองรับการแสดงผลหน้าจอหลายขนาด
 
 ---
 
@@ -82,15 +77,15 @@ Web-Typing-game
 
 ## 🚀 Getting Started (วิธีนำไปใช้งาน หรือพัฒนาต่อ)
 
-Clone the repository (Clone โปรเจกต์)
+1) Clone the repository (Clone โปรเจกต์)
 
 ```bash
 git clone https://github.com/Oat-dev2005/Web-Typing-game.git
 ```
 
-Open `index.html` in your browser. (เปิดไฟล์ `index.html`)
+2) Open `index.html` in your browser. (เปิดไฟล์ `index.html`)
 
-No installation or additional packages are required. (เริ่มเล่นเกมผ่านเว็บเบราว์เซอร์ได้ทันที)
+3) No installation or additional packages are required. (เริ่มเล่นเกมผ่านเว็บเบราว์เซอร์ได้ทันที)
 
 ---
 
@@ -108,12 +103,12 @@ No installation or additional packages are required. (เริ่มเล่�
 
 ## 🔮 Future Improvements
 
-- 🎯 Difficulty Levels      (เพิ่มระดับความยาก)
-- 🌍 Online Leaderboard     (ตารางคะแนนออนไลน์)
-- 👤 User Authentication    (ระบบสมาชิก)
-- 👥 Multiplayer Mode   (ระบบผู้เล่นหลายคน)
+- 🎯 Difficulty Levels | เพิ่มระดับความยาก
+- 🌍 Online Leaderboard | ตารางคะแนนออนไลน์
+- 👤 User Authentication | ระบบสมาชิก
+- 👥 Multiplayer Mode | ระบบผู้เล่นหลายคน
 - 🌙 Dark Mode
-- 📱 Better Mobile Experience       (ปรับให้รองรับมือถือมากขึ้น)
+- 📱 Better Mobile Experience | ปรับให้รองรับมือถือมากขึ้น
 
 ---
 
