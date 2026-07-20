@@ -62,14 +62,12 @@ Web Typing Game เป็นเกมฝึกพิมพ์เร็วบน�
 ```text
 Web-Typing-game
 │
-├── Typing_game.html
+├── index.html
 ├── typing_style.css
 ├── typing_script.js
 ├── typing_sounds.js
 ├── words.json
-├── assets/
-│   ├── screenshots/
-│   └── sounds/
+├── assets
 └── README.md
 ```
 
