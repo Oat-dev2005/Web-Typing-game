@@ -12,7 +12,7 @@
   <a href="#ghpages"><img src="https://img.shields.io/badge/GitHub%20Pages-121013?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
-<p align="center">
+<p align="left">
   A browser-based typing game built with HTML, CSS, and JavaScript.
   <br>
   เกมฝึกพิมพ์เร็วบนเว็บที่พัฒนาด้วย HTML, CSS และ JavaScript
