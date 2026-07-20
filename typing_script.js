@@ -63,6 +63,7 @@ function startGame() {
     }
   }, 1000);
 }
+
 function updateWord() {
   currentWord = getRandomWord();
   wordElement.textContent = currentWord.toUpperCase();
@@ -135,6 +136,7 @@ function endGame() {
   updateScore();
   updateTime();
 }
+
 function highlightWord(typedWord) {
   let highlightedText = "";
   for (let i = 0; i < currentWord.length; i++) {
